@@ -21,13 +21,11 @@ git clone https://github.com/your-username/movies-search-app.git
 
 2. Install dependencies:
 
-
 npm install
 
 3. Add `.env`:
-4. 
-VITE_OMDB_API_KEY=your_api_key
 
+VITE_OMDB_API_KEY=your_api_key
 
 4. Run the app:
 
