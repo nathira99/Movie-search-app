@@ -17,17 +17,15 @@ A simple movie search application using the OMDB API, built with:
 
 ## 📦 Setup
 1. Clone the repo:
-git clone https://github.com/your-username/movies-search-app.git
+git clone https://github.com/nathira99/Movie-search-app.git
 
 2. Install dependencies:
-
 
 npm install
 
 3. Add `.env`:
-4. 
-VITE_OMDB_API_KEY=your_api_key
 
+VITE_OMDB_API_KEY=your_api_key
 
 4. Run the app:
 
