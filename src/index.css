@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* GLOBAL COMMON CSS */
+
+/* Removes blue highlight when clicking on mobile */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Smooth transitions for buttons, links, cards */
+.btn,
+a,
+button,
+.card {
+  @apply transition duration-200 ease-in-out;
+}
+
+/* Global background */
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+/* Container spacing */
+.page-container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+/* Dark Mode Background & Text */
+.dark body {
+  @apply bg-gray-900 text-gray-100;
+}
+
+/* Navbar */
+.navbar {
+  @apply bg-white text-gray-900 dark:bg-gray-800 dark:text-gray-100;
+}
+
+/* Cards */
+.card {
+  @apply bg-white dark:bg-gray-700;
+}
+
+/* Buttons */
+.btn {
+  @apply bg-blue-600 text-white dark:bg-blue-500;
+}
