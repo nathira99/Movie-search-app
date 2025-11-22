@@ -17,7 +17,7 @@ A simple movie search application using the OMDB API, built with:
 
 ## 📦 Setup
 1. Clone the repo:
-git clone https://github.com/your-username/movies-search-app.git
+git clone https://github.com/your-username/Movie-search-app.git
 
 2. Install dependencies:
 
